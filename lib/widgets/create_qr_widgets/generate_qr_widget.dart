@@ -181,10 +181,9 @@ class GenerateQrWidget extends StatelessWidget {
                           ),
                         ),
                         child: Center(
-                          child: QrImage(
+                          child: QrImageView(
                             data: controller.text,
                             size: 180,
-                            foregroundColor: const Color(0xFF8194FE),
                           ),
                         ),
                       ),
